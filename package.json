@@ -1,12 +1,12 @@
-{
-  "name": "yourbot",
+p{
+  "name": "SANKALPA",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
-    "stop": "pm2 stop wabot",
-    "restart": "pm2 restart wabot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name sankalpa-mod",
+    "stop": "pm2 stop sankalpa-mod",
+    "restart": "pm2 restart sankalpa-mod"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
